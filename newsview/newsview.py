@@ -64,7 +64,7 @@ class NewsLoader:
       raise Exception(f'Error: {e}')
   
   def remove_quotes(self) -> str:
-    chk = lambda x: x is not None
+    chk = lambda x: x is not None #is not none 해서 끝났으니까 x ,들어온값이 non 이면 false, none이 아니면 true
     for article in self.articles:
       article['title'] = where(chk(article['title']), article['title'], '').replace('"', '')
       article['description'] = where(chk(article['description']), article['description'], '').replace('"', '')
