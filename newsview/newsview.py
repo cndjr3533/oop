@@ -79,7 +79,7 @@ class NewsLoader:
         
       url += f'&apiKey={api_key}'
           
-      self.load_news_from_url(url)     
+      self.load_news_from_url(url)     #최종적으로 호출하는 url
       
       self.vpp = vpp      
       self.__calculate_total_pages()

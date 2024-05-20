@@ -1,6 +1,6 @@
 {
   "base_url": "https://newsapi.org/v2/top-headlines",
-  "api_key": "739904b4b49c4cd1b425a7dc29361092",
+  "api_key": "73febaf194004fa0ab0fdaee62ddfe8d",
   "category": ["topic", "business", "entertainment", "health", "science", "sports", "technology"],
   "language": 
   [ 
